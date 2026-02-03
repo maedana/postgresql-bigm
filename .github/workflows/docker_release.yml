@@ -27,4 +27,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/${{ github.actor }}/postgresql-bigm:latest
-            ghcr.io/${{ github.actor }}/postgresql-bigm:17
+            ghcr.io/${{ github.actor }}/postgresql-bigm:18
