@@ -1,8 +1,8 @@
-FROM postgres:17
+FROM postgres:18
 MAINTAINER aki77 <aki77@users.noreply.github.com>
 
 RUN apt update
-RUN apt install -y postgresql-server-dev-17 make gcc wget libicu-dev
+RUN apt install -y postgresql-server-dev-18 make gcc wget libicu-dev
 
 RUN wget https://github.com/pgbigm/pg_bigm/archive/refs/tags/v1.2-20250903.tar.gz
 RUN tar zxf v1.2-20250903.tar.gz
